@@ -1,0 +1,8 @@
+
+Uses charts to define and package Kubernetes manifests
+
+Leans into templating to allow dynamic configuration
+
+Customizable inputs via either the command-line or with a values.yaml file
+
+Very wide adoption for both sharing Kubernetes manifests and for deploying via CI/CD pipelines

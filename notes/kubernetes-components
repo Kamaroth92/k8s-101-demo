@@ -1,0 +1,24 @@
+
++-----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| Name                        | Description                                                                                                                                  |
++-----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+| API Server                  | The central management point for the entire cluster. It exposes the Kubernetes API,                                                          |
+|                             | which can be used to interact with the cluster and manage its resources.                                                                     |
+|                             |                                                                                                                                              |
+| etcd                        | This is a distributed key-value store that Kubernetes uses to store its configuration data,                                                  |
+|                             | state, and metadata. All the other components in the cluster read and write data to etcd.                                                    |
+|                             |                                                                                                                                              |
+| Scheduler                   | When a new pod needs to be created or an existing pod needs to be scaled, the Scheduler is responsible for selecting a                       |
+|                             | suitable node in the cluster where the pod can run. It considers factors like resource availability, affinity/anti-affinity rules, and more. |
+|                             |                                                                                                                                              |
+| Controller Manager          | This is a collection of controllers that run as background processes and are                                                                 |
+|                             | responsible for maintaining the desired state of different objects in the cluster.                                                           |
+|                             |                                                                                                                                              |
+| Kubelet                     | The process that runs on each node in the cluster and is responsible for managing the containers on that node.                               |
+|                             |                                                                                                                                              |
+| Container Network Interface | The service responsible for managing the networking between containers as well as implementing network policies.                             |
+|                             |                                                                                                                                              |
+| Container Runtime Interface | Kubernetes supports multiple container runtimes, such as Docker,                                                                             |
+|                             | containerd, and CRI-O. The container runtime is responsible for actually running the containers and handling their life cycles.              |
++-----------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
+

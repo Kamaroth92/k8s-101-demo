@@ -1,0 +1,8 @@
+A container can push directly to a logging system like Elasticsearch however typically you will
+    have an intermediary logging agent which is responsible for this task.
+
+Container ─────────> Logging Agent (e.g., Fluentd) ─────> Elasticsearch
+     │                                                       │
+     │               Log messages (stdout/stderr)            │
+     └─────────────────────── Log Forwarding ────────────────┘
+

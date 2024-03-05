@@ -1,0 +1,17 @@
+
+IRSA (Identity and Access Management (IAM) Roles for Service Accounts)
+- Allows pods to have IAM roles associated with them via a kubernetes service account
+
+- Allows you to use IAM to assign fine-grained permissions to pods to allow them to access AWS resources
+
+- Removes the need to embed AWS credentials into your applications or store them as secrets on the cluster
+
+- Utilizes OIDC
+
+EKS Pod Identity
+- New way of interracting with AWS resources
+
+- Simplifies trust policy principals and removes the need to configure an OIDC provider for your cluster
+
+- Requires the use of a newer version of the AWS SDK which many applications don't support yet
+

@@ -1,0 +1,13 @@
+
+`aws eks list-clusters`
+{
+    "clusters": [
+        "cluster01",
+        "cluster02",
+        "cluster03"
+    ]
+}
+
+`aws eks update-kubeconfig --name cluster01`
+Updated context arn:aws:eks:ap-southeast-2:123456789012:cluster/cluster01 in /Users/tane/.kube/config
+

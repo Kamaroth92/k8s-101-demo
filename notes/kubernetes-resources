@@ -1,0 +1,23 @@
+
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Kind                          | Definition                                                                                                                      |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Pod (po)                      | The smallest and most basic Kubernetes object. It's a single                                                                    |
+|                               | instance of a containerized application and can consist of one or more containers.                                              |
+|                               |                                                                                                                                 |
+| Service (svc)                 | An abstract way to expose an application running on a set of                                                                    |
+|                               | pods as a network service. It provides load balancing, IP assignment, and service discovery.                                    |
+|                               |                                                                                                                                 |
+| Deployment (deploy)           | A higher-level abstraction that represents a desired state for a pod or set of pods.                                            |
+|                               | It manages the creation, scaling, and updating of pods based on a specified configuration.                                      |
+|                               |                                                                                                                                 |
+| Namespace (ns)                | A virtual cluster inside a Kubernetes cluster. It provides a way to partition                                                   |
+|                               | resources within the same Kubernetes cluster into separate virtual clusters.                                                    |
+|                               |                                                                                                                                 |
+| ConfigMap (cm)                | A Kubernetes object that allows you to store non-sensitive configuration data in key-value pairs.                               |
+|                               |                                                                                                                                 |
+| Secret                        | A Kubernetes object used to store sensitive information, such as passwords, OAuth tokens, and SSH keys, in a secure way.        |
+|                               |                                                                                                                                 |
+| Ingress (ing)                 | A Kubernetes object that manages external access to services in a cluster. It provides HTTP and HTTPS routing capabilities.     |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+
